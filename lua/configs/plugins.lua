@@ -40,6 +40,9 @@ return packer.startup(function (use)
 	use {
 		-- Packer
 		"wbthomason/packer.nvim",
+    
+    -- Look/Behaviour
+    { "nvim-lualine/lualine.nvim", requires = { 'nvim-tree/nvim-web-devicons', opt = true }},
 
 		-- Colorschemes
 		"shaunsingh/nord.nvim" -- Nord
